@@ -15,32 +15,21 @@ public class Main {
 
     public static void main(String[] args)throws IOException {
         //membuat object dari gamenya untuk implementasikan login
-        Login GenshinImpact = new Game();
-        //membuat user untuk login game yang di implementasikan
-        Gamers Nizar = new Gamers(GenshinImpact);
+        Game GenshinImpact = new Game();
         while (true) {
-            System.out.println("||========== MENU ==========||");
+            System.out.println("||======== MENU GAME =======||");
             System.out.println("||1.Login               ====||");
             System.out.println("||2.Logout              ====||");
-            System.out.println("||3.Masukan Username    ====||");
-            System.out.println("||4.Masukan Password    ====||");
-            System.out.println("||5.Masuk Ke Game       ====||");
-            System.out.println("||6.Keluar              ====||");
+            System.out.println("||3.Keluar              ====||");
             System.out.println("||==========================||");
             String inputan_m;
             System.out.print("Masukan Menu :");
             inputan_m = br.readLine();
             if(inputan_m.equals("1")){
-                Nizar.loginGamersAccount();
+                GenshinImpact.LoginAccount();
             } else if (inputan_m.equals("2")){
-                Nizar.logoutGamersAccount();
-            } else if (inputan_m.equals("3")){
-                Nizar.EnterUsername();
-            } else if (inputan_m.equals("4")){
-                Nizar.EnterPassword();
-            } else if (inputan_m.equals("5")){
-                Nizar.EnterGames();
-            } else if (inputan_m.equals("6")){
+                GenshinImpact.LogoutAccount();
+            }  else if (inputan_m.equals("3")){
                 System.exit(1);
             } else {
                 System.out.println("SALAH PILIH MENU");

@@ -14,7 +14,4 @@ public interface Login {
     //implements (namaInterface)
     void LoginAccount();
     void LogoutAccount();
-    void EnterUsernameAccount();
-    void EnterPasswwordAccount();
-    void EnterGame();
 }
