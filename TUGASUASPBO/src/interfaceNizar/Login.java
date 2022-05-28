@@ -4,10 +4,6 @@
  */
 package interfaceNizar;
 
-/**
- *
- * @author nizar
- */
 public interface Login {
     //method kosong, interface adalah sesuatu yang harus
     //impelementasikan pada suatu class yang ada command

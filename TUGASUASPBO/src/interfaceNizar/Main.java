@@ -6,10 +6,7 @@ package interfaceNizar;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-/**
- *
- * @author nizar
- */
+
 public class Main {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -37,6 +34,5 @@ public class Main {
             
         }
         
-    }
-    
+    } 
 }
